@@ -14,7 +14,7 @@ setup(name='cloudstack.compute',
                         'simplejson',
                         'argparse',
                         'prettytable==0.5',
-                        'parsedatetime==0.8.7',
+                        'parsedatetime==1.3',
                         'lxml',
                         ],
       entry_points={

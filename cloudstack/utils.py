@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import parsedatetime.parsedatetime as pdt
-import parsedatetime.parsedatetime_consts as pdc
 import datetime
 import time
 
@@ -69,7 +68,7 @@ def dict2obj(d,use_key=False):
     return top
 
 def datetimeFromString(s):
-    c = pdc.Constants()
+    c = pdt.Constants()
     p = pdt.Calendar(c)
     result, what = p.parse(s)
     dt = 0
